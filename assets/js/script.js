@@ -1,7 +1,7 @@
 import { saveToLocalStorage } from "../modules/localStorage.js";
 import { qs } from "../modules/querySelector.js";
 import { qsAll } from "../modules/querySelector.js";
-import { bindEventsAll } from "../modules/bindEventS.js";
+import { bindEventsAll } from "../modules/bindEvents.js";
 
 let todos = JSON.parse(localStorage.getItem("todos")) || [];
 const localCheck = JSON.parse(localStorage.getItem("checkControl")) || [];
